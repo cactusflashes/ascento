@@ -1,0 +1,60 @@
+{
+    "national_parks": [
+
+    {
+        "park_name": "North Cascades National Park", 
+        "location": "North Cascades National Park, WA 98267",
+        "hike_number": "28+",
+        "photo": "national parks images/north-cascades.jpg",
+        "weather" : {
+            "api_url": "https://api.openweathermap.org/data/2.5/weather?lat=48.7718&lon=-121.2985&appid=e28dc6acd1bfed7577b41d518f0151b5&units=imperial"
+        }
+        
+    }, 
+
+    {
+        "park_name": "Olympic National Park", 
+        "location": "Port Angeles, WA 98362",
+        "hike_number": "177",
+        "photo": "national parks images/olympia.jpg",
+        "weather" : {
+            "api_url": "https://api.openweathermap.org/data/2.5/weather?lat=47.8021&lon=-123.6044&appid=e28dc6acd1bfed7577b41d518f0151b5&units=imperial"
+        }
+        
+    }, 
+
+    {
+        "park_name": "Crater Lake National Park",
+        "location": "Crater Lake, OR 97604",
+        "hike_number": "28+",
+        "photo": "national parks images/crater-lake.jpg",
+        "weather" : {
+            "api_url": "https://api.openweathermap.org/data/2.5/weather?lat=42.9295&lon=122.1279&appid=e28dc6acd1bfed7577b41d518f0151b5&units=imperial"
+        }
+        
+    }, 
+
+    {
+        "park_name": "Redwood National Park", 
+        "location": "Cresent City, CA 95531",
+        "hike_number": "27+",
+        "photo": "national parks images/redwoods.jpg",
+        "weather" : {
+            "api_url": "https://api.openweathermap.org/data/2.5/weather?lat=41.4017&lon=124.0417&appid=e28dc6acd1bfed7577b41d518f0151b5&units=imperial"
+        }
+
+    }, 
+
+    {
+        "park_name": "Mt. Rainer National Park", 
+        "location": "Ashford, WA 98304", 
+        "hike_number": "155",
+        "photo": "national parks images/rainer.jpg",
+        "weather" : {
+            "api_url": "https://api.openweathermap.org/data/2.5/weather?lat=46.8800&lon=121.7269&appid=e28dc6acd1bfed7577b41d518f0151b5&units=imperial"
+        }
+        
+    }
+
+    ]
+}

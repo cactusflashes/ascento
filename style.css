@@ -1,0 +1,174 @@
+body {
+    background-color: #232625;
+    overflow: hidden;   
+    margin: 0;
+    padding: 0;
+}
+
+.body-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    color: #a3a59b;
+    font-family: Plus Jakarta Sans;
+    font-weight: 100;
+    font-size: 4vw;
+}
+
+h1 {
+    color: #a3a59b;
+    font-family: Plus Jakarta Sans;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    font-size: 6vw;
+}
+
+h5 {
+    color: #a3a59b;
+    font-family: Plus Jakarta Sans;
+    font-weight: 300;
+    font-size: 3vw;
+    margin: 0;
+    padding: 0;
+    letter-spacing: .4em;
+}
+
+h6 {
+    color: #a3a59b;
+    font-family: Plus Jakarta Sans;
+    font-weight: 100;
+    font-size: 2.5vw;
+    margin: 0;
+    padding: 0;
+    letter-spacing: .4em;
+}
+
+.header-container {
+    display: flex;
+    background-color: rgba(97, 109, 99, 0.7);  
+    flex-direction: column;
+    margin: 0;
+    padding: 2vw 3vw;
+    border-radius: 2vw;
+    position: relative;
+    top: 5vw;
+    width: 70vw;
+}
+
+.header-container h1, .header-container p {
+    opacity: 1; /* Full opacity for text */
+  }
+  
+
+.bg-image {
+    position: absolute;
+    top: -10vw;
+}
+
+.brand-container {
+    position: relative;
+    display: flex;
+    top: 70vw;
+    height: 30vh;
+    width: 80vw;
+    z-index: 120;
+    justify-content: center;
+}
+
+.buttons {
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    top: 25vw;
+    gap: 4vw;
+    width: 80%;
+    margin: 0;
+    padding: 0;
+    z-index: 150;
+}
+.np {
+    display: flex;
+    background-color: #35403a;
+    z-index: 6;
+    height: 18vw;
+    width: 80vw;
+    border-radius: 2vw;
+    align-items: center;
+}
+
+.hike-local {
+    display: flex;
+    background-color: #35403a;
+    z-index: 6;
+    height: 18vw;
+    width: 80vw;
+    border-radius: 2vw;
+    align-items: center;
+
+}
+
+.hike-all {
+    display: flex;
+    background-color: #35403a;
+    z-index: 6;
+    height: 18vw;
+    width: 80vw;
+    border-radius: 2vw;
+    align-items: center;
+
+}
+
+.colophon {
+    display: flex;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    top: 30vw;
+    width: 80vw;
+    z-index: 100;
+    justify-content: center;
+}
+
+.np-logo {
+    max-width: 10%;
+    position: relative;
+    left: 5vw;
+}
+
+.np-title {
+    position: relative;
+    left: 12vw;
+}
+
+.trees-1 {
+    max-width: 10%;
+    position: relative;
+    left: 5vw;
+}
+
+.trees-1-title {
+    position: relative;
+    left: 12vw;
+}
+
+.trees-2 {
+    max-width: 15%;
+    position: relative;
+    left: 4vw;
+}
+
+.trees-2-title {
+    position: relative;
+    left: 8vw;
+}
+
+.hidden { 
+    display: none;
+}

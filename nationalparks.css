@@ -1,0 +1,100 @@
+body {
+    background-color: #232625;
+    overflow: hidden;   
+    margin: 0;
+    padding: 0;
+}
+
+.body-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-container {
+    display: flex; 
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.text-container {
+    display: flex;
+    position: relative;
+    width: 80%;
+    text-align: center;
+}
+
+h1 {
+    color: #a3a59b;
+    font-family: Plus Jakarta Sans;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+
+}
+
+p {
+    color: #a3a59b;
+    font-family: Plus Jakarta Sans;
+    font-weight: 100;
+    margin: 1vw;
+    padding: 0;
+
+}
+
+.button-text {
+    color: #232625;
+    font-family: Plus Jakarta Sans;
+    font-weight: 100;
+    margin: 1vw;
+    padding: 0;
+}
+
+.text-parent-container {
+    display: flex;
+    position: relative;
+    top: 105vw;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-container {
+    display: flex;
+    position: relative;
+    top: 115vw;
+
+}
+
+button {
+    padding: 4vw 15vw;
+    border-radius: 10vw;
+    font-weight: 500;
+    font-size: 4.5vw;
+    background-color: #a3a59b;
+    font-family: Plus Jakarta Sans;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    color: #232625;
+}
+
+.icon-page-2 {
+    max-width: 40%;
+    position: absolute;
+    top: 30vw;
+    margin: 0;
+    padding: 0;
+}
+
+.icon-page-3 {
+    max-width: 70%;
+    position: absolute;
+    top: 30vw;
+    margin: 0;
+    padding: 0;
+}
+
+.hidden {
+    display: none;
+}

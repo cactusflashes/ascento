@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <link rel="icon" type="image/x-icon" href="static/favicon-01.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ascento</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;700;800&display=swap" rel="stylesheet"> 
+    
+</head>
+
+<body>
+
+    <div class="body-wrapper">
+
+        <img src="static/mountains-bg.svg" class="bg-image" id="bg">
+    
+        <div class="header-container hidden" id="welcome-message">
+        <h1 id="welcome">Welcome, Josh</h1>
+        <h5 id="date"></h5>
+        </div>
+
+        <!--images-->
+
+
+
+        <!--brand title-->
+
+        <div class="brand-container hidden" id="ascento-title">
+            <h5>ascento.app</h5>
+        </div>
+
+        <!--buttons (3)-->
+
+        <div class="buttons">
+
+            <div onclick="goNp()" class="np hidden" id="button-1">
+
+                <img src="static/np-icon.svg" class="np-logo"/>
+
+                <p class="np-title">Hike National Parks</p>
+
+            </div>
+
+            <div onclick="goLocal()" class="hike-local hidden" id="button-2">
+
+                <img src="static/hike-local.svg" class="trees-1" />
+
+                <p class="trees-1-title">Hike Local</p>
+
+            </div>
+
+            <div onclick="goAll()" class="hike-all hidden" id="button-3">
+
+                <img src="static/all-hikes.svg" class="trees-2" />
+
+                <p class="trees-2-title">All Hikes</p>
+
+            </div>
+
+        </div>
+
+        <!--colophon-->
+
+        <div class="colophon hidden" id="colophon">
+            <h6>A WEB APP BY JOSEPH</h6>
+        </div>
+
+        <script src="main.js"></script>
+
+    </div>
+    
+</body>
+
+</html>

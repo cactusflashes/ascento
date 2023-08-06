@@ -1,0 +1,225 @@
+{
+    "all_hikes": [
+
+    {
+        "park_name": "North Cascades National Park", 
+        "location": "North Cascades National Park, WA 98267",
+        "hike_number": "28+",
+        "photo": "national parks images/north-cascades.jpg",
+        "weather" : {
+            "api_url": "https://api.openweathermap.org/data/2.5/weather?lat=48.7718&lon=-121.2985&appid=e28dc6acd1bfed7577b41d518f0151b5&units=imperial"
+        }
+        
+    }, 
+
+    {
+        "park_name": "Olympic National Park", 
+        "location": "Port Angeles, WA 98362",
+        "hike_number": "177",
+        "photo": "national parks images/olympia.jpg",
+        "weather" : {
+            "api_url": "https://api.openweathermap.org/data/2.5/weather?lat=47.8021&lon=-123.6044&appid=e28dc6acd1bfed7577b41d518f0151b5&units=imperial"
+        }
+        
+    }, 
+
+    {
+        "park_name": "Crater Lake National Park",
+        "location": "Crater Lake, OR 97604",
+        "hike_number": "28+",
+        "photo": "national parks images/crater-lake.jpg",
+        "weather" : {
+            "api_url": "https://api.openweathermap.org/data/2.5/weather?lat=42.9295&lon=122.1279&appid=e28dc6acd1bfed7577b41d518f0151b5&units=imperial"
+        }
+        
+    }, 
+
+    {
+        "park_name": "Redwood National Park", 
+        "location": "Cresent City, CA 95531",
+        "hike_number": "27+",
+        "photo": "national parks images/redwoods.jpg",
+        "weather" : {
+            "api_url": "https://api.openweathermap.org/data/2.5/weather?lat=41.4017&lon=124.0417&appid=e28dc6acd1bfed7577b41d518f0151b5&units=imperial"
+        }
+
+    }, 
+
+    {
+        "park_name": "Mt. Rainer National Park", 
+        "location": "Ashford, WA 98304", 
+        "hike_number": "155",
+        "photo": "national parks images/rainer.jpg",
+        "weather" : {
+            "api_url": "https://api.openweathermap.org/data/2.5/weather?lat=46.8800&lon=121.7269&appid=e28dc6acd1bfed7577b41d518f0151b5&units=imperial"
+        }
+        
+    }, 
+
+    {
+        "park_name": "South Cascades", 
+        "location": "Stevenson, WA 98648",
+        "hike_number": "10+",
+        "photo": "local hikes images/south-cascades.jpg",
+        "weather" : {
+            "api_url": "https://api.openweathermap.org/data/2.5/weather?lat=48.3693&lon=-121.0673&appid=e28dc6acd1bfed7577b41d518f0151b5&units=imperial"
+        }
+        
+    }, 
+
+    {
+        "park_name": "Washington Coast", 
+        "location": "Washington, USA",
+        "hike_number": "300+",
+        "photo": "local hikes images/washington-coast.jpg",
+        "weather" : {
+            "api_url": "https://api.openweathermap.org/data/2.5/weather?lat=47.2089&lon=-124.2002&appid=e28dc6acd1bfed7577b41d518f0151b5&units=imperial"
+        }
+        
+    }, 
+
+    {
+        "park_name": "Oregon Coast",
+        "location": "Oregon, USA",
+        "hike_number": "300+",
+        "photo": "local hikes images/oregon-coast.jpg",
+        "weather" : {
+            "api_url": "https://api.openweathermap.org/data/2.5/weather?lat=45.8918&lon=123.9615&appid=e28dc6acd1bfed7577b41d518f0151b5&units=imperial"
+        }
+        
+    }, 
+
+    {
+        "park_name": "Columbia Gorge", 
+        "location": "Portland, OR 97031",
+        "hike_number": "68",
+        "photo": "local hikes images/colombia-gorge",
+        "weather" : {
+            "api_url": "https://api.openweathermap.org/data/2.5/weather?lat=45.7087&lon=121.7525&appid=e28dc6acd1bfed7577b41d518f0151b5&units=imperial"
+        }
+
+    }, 
+
+    {
+        "park_name": "Mt. Rainer National Park", 
+        "location": "Ashford, WA 98304", 
+        "hike_number": "155",
+        "photo": "national parks images/rainer.jpg",
+        "weather" : {
+            "api_url": "https://api.openweathermap.org/data/2.5/weather?lat=46.8800&lon=121.7269&appid=e28dc6acd1bfed7577b41d518f0151b5&units=imperial"
+        }
+        
+    }, 
+
+    {
+        "park_name": "Mt. St. Helens", 
+        "location": "Castle Rock, WA 98611", 
+        "hike_number": "40+",
+        "photo": "local hikes images/st-helens.jpg",
+        "weather" : {
+            "api_url": "https://api.openweathermap.org/data/2.5/weather?lat=46.1914&lon=122.1956&appid=e28dc6acd1bfed7577b41d518f0151b5&units=imperial"
+        }
+        
+    }, 
+
+    {
+        "park_name": "Mt. Hood", 
+        "location": "Mt. Hood, OR 97041", 
+        "hike_number": "160+",
+        "photo": "local hikes images/mt-hood.jpg",
+        "weather" : {
+            "api_url": "https://api.openweathermap.org/data/2.5/weather?lat=45.3736&lon=121.6960&appid=e28dc6acd1bfed7577b41d518f0151b5&units=imperial"
+        }
+        
+    }, 
+
+    {
+        "park_name": "Mt. Baker", 
+        "location": "Bellingham, WA 98118", 
+        "hike_number": "370+",
+        "photo": "local hikes images/mt-baker.jpg",
+        "weather" : {
+            "api_url": "https://api.openweathermap.org/data/2.5/weather?lat=48.7767&lon=121.8144&appid=e28dc6acd1bfed7577b41d518f0151b5&units=imperial"
+        }
+        
+    }, 
+
+    {
+        "park_name": "Snoqualmie Pass", 
+        "location": "King County, WA 98068", 
+        "hike_number": "100",
+        "photo": "local hikes images/squal.jpg",
+        "weather" : {
+            "api_url": "https://api.openweathermap.org/data/2.5/weather?lat=47.3923&lon=121.4001&appid=e28dc6acd1bfed7577b41d518f0151b5&units=imperial"
+        }
+        
+    }, 
+
+    {
+        "park_name": "Rogue River", 
+        "location": "Rouge River, OR 97537", 
+        "hike_number": "80+",
+        "photo": "local hikes images/rogue-river.jpg",
+        "weather" : {
+            "api_url": "https://api.openweathermap.org/data/2.5/weather?lat=42.4360&lon=123.1720&appid=e28dc6acd1bfed7577b41d518f0151b5&units=imperial"
+        }
+        
+    }, 
+
+    {
+        "park_name": "San Juans", 
+        "location": "San Juans Islands, WA 98250", 
+        "hike_number": "10+",
+        "photo": "local hikes images/san-juan.jpg",
+        "weather" : {
+            "api_url": "https://api.openweathermap.org/data/2.5/weather?lat=48.5514&lon=123.0781&appid=e28dc6acd1bfed7577b41d518f0151b5&units=imperial"
+        }
+        
+    }, 
+
+    {
+        "park_name": "Okanogan-Wenatchee", 
+        "location": "Wenatchee, WA 98807", 
+        "hike_number": "390",
+        "photo": "local hikes images/okan.jpg",
+        "weather" : {
+            "api_url": "https://api.openweathermap.org/data/2.5/weather?lat=48.0123&lon=120.5795&appid=e28dc6acd1bfed7577b41d518f0151b5&units=imperial"
+        }
+        
+    }, 
+
+    {
+        "park_name": "Glacier Peak", 
+        "location": "Snohomish County, WA ", 
+        "hike_number": "10+",
+        "photo": "local hikes images/glacier-peak.jpg",
+        "weather" : {
+            "api_url": "https://api.openweathermap.org/data/2.5/weather?lat=48.1119&lon=121.1132&appid=e28dc6acd1bfed7577b41d518f0151b5&units=imperial"
+        }
+        
+    }, 
+
+    {
+        "park_name": "Mt. Adams", 
+        "location": "Skamania County, WA", 
+        "hike_number": "10+",
+        "photo": "local hikes images/mt-adams.jpg",
+        "weather" : {
+            "api_url": "https://api.openweathermap.org/data/2.5/weather?lat=46.2024&lon=121.4910&appid=e28dc6acd1bfed7577b41d518f0151b5&units=imperial"
+        }
+        
+    }, 
+
+    {
+        "park_name": "Central Cascades", 
+        "location": "Washington, USA", 
+        "hike_number": "100+",
+        "photo": "local hikes images/central-casc.jpg",
+        "weather" : {
+            "api_url": "https://api.openweathermap.org/data/2.5/weather?lat=47.427&lon=-121.418&appid=e28dc6acd1bfed7577b41d518f0151b5&units=imperial"
+        }
+        
+    }
+
+    ]
+}

@@ -1,0 +1,151 @@
+body {
+    background-color: #232625;
+    overflow: hidden;   
+    margin: 0;
+    padding: 0;
+}
+
+.body-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-container {
+    display: flex;
+    position: relative;
+    top: 10vw;
+    align-items: center;
+}
+
+
+h1 {
+    color: #a3a59b;
+    font-family: Plus Jakarta Sans;
+    font-weight: 500;
+    font-size: 5vw;
+    margin: 0;
+
+}
+
+h2 {
+    color:#232625;
+    font-family: Plus Jakarta Sans;
+    font-size: 6vw;
+    text-align: center;
+}
+
+.dark-text {
+    color:#232625;
+    font-family: Plus Jakarta Sans;
+    font-size: 3.7vw;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    z-index: 100;
+    font-weight: 400;
+    align-self: center;
+}
+
+.lights-text {
+    color:#a3a59b;
+    font-family: Plus Jakarta Sans;
+    font-size: 3.7vw;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    z-index: 100;
+    font-weight: 400;
+    align-self: center;
+}
+
+
+.block-holder {
+    display: flex;
+    position: relative;
+    height: 40vw;
+    top: 5vw;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4vw;
+}
+
+
+.location {
+    display: flex;
+    background-color: #a3a59b;
+    height: 15vw;
+    width: 80vw;
+    border-radius: 3vw;
+    position: relative;
+
+}
+
+.location-pin {
+    scale: .3;
+    display: flex;
+}
+
+.double-holder {
+    display: flex;
+    flex-direction: row;
+    gap: 4vw;
+}
+
+.conditions {
+    display: flex;
+    background-color: #a3a59b;
+    height: 38vw;
+    width: 38vw;
+    border-radius: 4vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.hike-number {
+    display: flex;
+    background-color: #a3a59b;
+    height: 38vw;
+    width: 38vw;
+    border-radius: 4vw;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.park-photo-holder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.park-photo {
+    max-width: 80%;
+    position: relative; 
+    top: 8vw;
+    border-radius: 5vw;
+}
+
+.back-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #a3a59b;
+    height: 12vw;
+    width: 40vw;
+    top: 15vw;
+    border-radius: 10vw;
+    border: none;
+    font-weight: 500;
+    color:#232625;
+    font-family: Plus Jakarta Sans;
+    font-size: 5vw;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}

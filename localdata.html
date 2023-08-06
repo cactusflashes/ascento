@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <link rel="icon" type="image/x-icon" href="static/favicon-01.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ascento | hike local</title>
+    <link rel="stylesheet" href="parkdata.css">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;700;800&display=swap" rel="stylesheet"> 
+    
+</head>
+
+
+<body>
+
+
+<div class="body-wrapper">
+
+    <div class="header-container">
+
+        <h1 id="parkNameData" class="hidden"></h1>
+        
+    </div>
+
+    <div class="block-holder">
+
+        <div class="location hidden" id="locationHolder">
+
+            <img src="static/pin.png" class="location-pin"/>
+            <p class="dark-text" id="location"></p>
+            
+        </div>
+
+    </div>
+
+    <div class="double-holder hidden" id="double-holder">
+
+        <div class="conditions">
+            <h2 id="weatherText"><br></h2>
+        </div>
+
+        <div class="hike-number">
+            <h2 id="hikeText"></h2>
+        </div>
+            
+    </div>
+
+
+        <div class="park-photo-holder hidden" id="park-photo"></div>
+
+
+    <button class="back-button hidden" id="backButton" onclick="goBackButton()">
+        ←&nbspBack
+    </button>
+
+</div>
+
+<script src="localdata.js"></script>
+
+</body>
+
+</html> 
